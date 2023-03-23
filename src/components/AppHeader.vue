@@ -24,4 +24,10 @@ export default {
 <style lang="scss" scoped>
 @use 'src/styles/Variables.scss' as *;
 @use 'src/styles/Common.scss' as *;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 </style>
