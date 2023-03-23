@@ -1,10 +1,10 @@
 <script>
-import AppFooterLinks from './AppFooterLinks.vue';
+import AppButtonVue from './AppButton.vue';
 import AppFooterSocialsVue from './AppFooterSocials.vue';
 
 export default {
     components: {
-        AppFooterLinks,
+        AppButtonVue,
         AppFooterSocialsVue,
     },
     data() {
@@ -16,13 +16,20 @@ export default {
 </script>
 
 <template>
-    <footer>
-        <AppFooterLinks />
+    <div>
+        <AppButtonVue />
         <AppFooterSocialsVue />
-    </footer>
+    </div>
 </template>
 
 <style lang="scss" scoped>
 @use 'src/styles/Variables.scss' as *;
 @use 'src/styles/Common.scss' as *;
+
+div {
+    background-color: $tertiary-color;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem 0;
+}
 </style>

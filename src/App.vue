@@ -1,21 +1,24 @@
 <script>
 import AppHeaderVue from './components/AppHeader.vue';
-import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
+import AppMainVue from './components/AppMain.vue';
+import AppFooterVue from './components/AppFooter.vue';
+import AppPreFooterVue from './components/AppPreFooter.vue';
 
 export default {
   components: {
     AppHeaderVue,
-    AppMain,
-    AppFooter,
+    AppMainVue,
+    AppFooterVue,
+    AppPreFooterVue,
   }
 }
 </script>
 
 <template>
   <AppHeaderVue />
-  <AppMain />
-  <AppFooter />
+  <AppMainVue />
+  <AppPreFooterVue />
+  <AppFooterVue />
 </template>
 
 <style lang="scss" scoped>
