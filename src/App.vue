@@ -2,14 +2,14 @@
 import AppHeaderVue from './components/AppHeader.vue';
 import AppMainVue from './components/AppMain.vue';
 import AppFooterVue from './components/AppFooter.vue';
-import AppPreFooterVue from './components/AppPreFooter.vue';
+import AppFooterNavVue from './components/AppFooterNav.vue';
 
 export default {
   components: {
     AppHeaderVue,
     AppMainVue,
     AppFooterVue,
-    AppPreFooterVue,
+    AppFooterNavVue,
   }
 }
 </script>
@@ -17,7 +17,7 @@ export default {
 <template>
   <AppHeaderVue />
   <AppMainVue />
-  <AppPreFooterVue />
+  <AppFooterNavVue />
   <AppFooterVue />
 </template>
 
