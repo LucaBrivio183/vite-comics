@@ -27,6 +27,7 @@ a {
     display: inline-block;
     text-decoration: none;
     padding: 15px;
+    margin: auto 0;
     color: $text-color;
     border: 2px solid $primary-color;
 

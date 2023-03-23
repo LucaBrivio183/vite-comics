@@ -20,6 +20,7 @@ export default {
 
 div {
     width: $logo-square-width;
+    height: $logo-square-width;
     overflow: hidden;
 
     img {

@@ -1,8 +1,11 @@
 <script>
 import AppButtonVue from './AppButton.vue';
+import AppFooterSocialLinksVue from './AppFooterSocialLinks.vue';
+
 export default {
     components: {
         AppButtonVue,
+        AppFooterSocialLinksVue,
     },
     data() {
         return {
@@ -15,6 +18,7 @@ export default {
 <template>
     <div>
         <AppButtonVue />
+        <AppFooterSocialLinksVue />
     </div>
 </template>
 
