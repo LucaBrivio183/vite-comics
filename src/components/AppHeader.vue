@@ -1,5 +1,11 @@
 <script>
+import AppNavbarVue from './AppNavbar.vue';
+import AppLogoVue from './AppLogo.vue';
 export default {
+    components: {
+        AppNavbarVue,
+        AppLogoVue,
+    },
     data() {
         return {
 
@@ -8,6 +14,14 @@ export default {
 }
 </script>
 
-<template></template>
+<template>
+    <header>
+        <AppLogoVue />
+        <AppNavbarVue />
+    </header>
+</template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@use 'src/styles/Variables.scss' as *;
+@use 'src/styles/Common.scss' as *;
+</style>
