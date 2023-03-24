@@ -75,8 +75,6 @@ export default {
 <style lang="scss" scoped>
 @use '.././styles/partials/variables' as *;
 @use '.././styles/partials/_mixins' as *;
-@use '.././styles/partials/_typography' as *;
-@use '.././styles/partials/_reset' as *;
 
 .flex-row {
     display: flex;

@@ -13,8 +13,8 @@ BG Image
 Container 
 **********/
 
-@mixin container($percsize, $maxsize) {
-    width: $percsize;
-    max-width: $size;
-    margin: auto;
+@mixin container($maxsize) {
+
+    max-width: $maxsize;
+    margin: 0 auto;
 }
