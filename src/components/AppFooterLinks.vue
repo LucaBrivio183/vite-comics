@@ -79,7 +79,6 @@ export default {
 .flex-row {
     display: flex;
     gap: 1.25rem;
-
-    .col {}
+    z-index: 2;
 }
 </style>

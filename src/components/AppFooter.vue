@@ -16,10 +16,12 @@ export default {
 </script>
 
 <template>
-    <div>
-        <AppButtonVue />
-        <AppFooterSocialsVue />
-    </div>
+    <footer>
+        <div class="container">
+            <AppButtonVue />
+            <AppFooterSocialsVue />
+        </div>
+    </footer>
 </template>
 
 <style lang="scss" scoped>
@@ -28,10 +30,13 @@ export default {
 
 
 
-div {
+footer {
     background-color: $tertiary-color;
-    display: flex;
-    justify-content: space-between;
-    padding: 1.875rem 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 1.875rem 0;
+    }
 }
 </style>

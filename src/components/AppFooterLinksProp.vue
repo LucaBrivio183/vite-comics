@@ -35,7 +35,7 @@ div {
 
             a {
                 color: $text-color;
-                opacity: 0.6;
+                opacity: 0.8;
 
                 &:hover {
                     opacity: 1;

@@ -16,8 +16,10 @@ export default {
 
 <template>
     <header>
-        <AppLogoVue />
-        <AppNavbarVue />
+        <div class="container">
+            <AppLogoVue />
+            <AppNavbarVue />
+        </div>
     </header>
 </template>
 
@@ -26,7 +28,7 @@ export default {
 @use '.././styles/partials/_mixins' as *;
 
 
-header {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
