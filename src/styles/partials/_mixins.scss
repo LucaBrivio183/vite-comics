@@ -1,0 +1,20 @@
+/*********
+BG Image 
+*********/
+
+@mixin bgImage($img) {
+    background-image: url($img);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/**********
+Container 
+**********/
+
+@mixin container($percsize, $maxsize) {
+    width: $percsize;
+    max-width: $size;
+    margin: auto;
+}

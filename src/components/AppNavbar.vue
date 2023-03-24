@@ -59,8 +59,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use 'src/styles/Variables.scss' as *;
-@use 'src/styles/Common.scss' as *;
+@use '.././styles/partials/variables' as *;
+@use '.././styles/partials/_mixins' as *;
+@use '.././styles/partials/_typography' as *;
+@use '.././styles/partials/_reset' as *;
+
+
 
 nav {
     ul {
