@@ -1,7 +1,6 @@
 <script>
 import AppFooterLinkPropVue from './AppFooterLinksProp.vue';
 export default {
-    name: "AppFooterLinks",
     components: {
         AppFooterLinkPropVue,
     },

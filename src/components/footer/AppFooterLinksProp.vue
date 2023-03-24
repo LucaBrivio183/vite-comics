@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: "FooterLinksProp",
+    name: "AppFooterLinksProp",
     props: {
         linksTitle: String,
         links: [String]

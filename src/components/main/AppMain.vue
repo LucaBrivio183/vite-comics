@@ -1,9 +1,10 @@
 <script>
 import AppJumbotronVue from './AppJumbotron.vue';
+import AppPurchaseLinksVue from './AppPurchaseLinks.vue';
 export default {
     components: {
         AppJumbotronVue,
-
+        AppPurchaseLinksVue
     },
     data() {
         return {
@@ -16,6 +17,7 @@ export default {
 <template>
     <main>
         <AppJumbotronVue />
+        <AppPurchaseLinksVue />
     </main>
 </template>
 
