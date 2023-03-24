@@ -1,5 +1,5 @@
 <script>
-import AppButtonVue from './AppButton.vue';
+import AppButtonVue from '../AppButton.vue';
 import AppFooterSocialsVue from './AppFooterSocials.vue';
 
 export default {
