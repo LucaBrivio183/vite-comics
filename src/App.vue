@@ -1,8 +1,8 @@
 <script>
-import AppHeaderVue from './components/AppHeader.vue';
-import AppMainVue from './components/AppMain.vue';
-import AppFooterVue from './components/AppFooter.vue';
-import AppFooterNavVue from './components/AppFooterNav.vue';
+import AppHeaderVue from './components/header/AppHeader.vue';
+import AppMainVue from './components/main/AppMain.vue';
+import AppFooterVue from './components/footer/AppFooter.vue';
+import AppFooterNavVue from './components/footer/AppFooterNav.vue';
 
 export default {
   components: {

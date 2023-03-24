@@ -23,13 +23,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '.././styles/partials/variables' as *;
-@use '.././styles/partials/_mixins' as *;
+@use '../../styles/partials/_variables.scss' as *;
+@use '../../styles/partials/_mixins' as *;
 
 .footer-nav {
     padding: 1.875rem 0;
     overflow: hidden;
-    @include bgImage('.././assets/img/footer-bg.jpg');
+    @include bgImage("src/assets/img/footer-bg.jpg");
 
     .container {
         position: relative;

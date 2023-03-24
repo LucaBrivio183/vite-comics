@@ -15,9 +15,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '.././styles/partials/variables' as *;
-@use '.././styles/partials/_mixins' as *;
-
+@use '../../styles/partials/_variables.scss' as *;
+@use '../../styles/partials/_mixins' as *;
 
 div {
     width: $logo-square-width;
