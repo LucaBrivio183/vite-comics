@@ -2,3 +2,13 @@
 @use './partials/_variables' as *;
 @use './partials/_mixins' as *;
 @use './partials/_typography' as *;
+
+
+.container {
+    @include container(90%, 1135px);
+}
+
+
+img {
+    max-width: 100%;
+}
