@@ -1,10 +1,12 @@
 <script>
 import AppJumbotronVue from './AppJumbotron.vue';
 import AppPurchaseLinksVue from './AppPurchaseLinks.vue';
+import AppComicsSectionVue from './AppComicsSection.vue';
 export default {
     components: {
         AppJumbotronVue,
-        AppPurchaseLinksVue
+        AppPurchaseLinksVue,
+        AppComicsSectionVue
     },
     data() {
         return {
@@ -17,6 +19,7 @@ export default {
 <template>
     <main>
         <AppJumbotronVue />
+        <AppComicsSectionVue />
         <AppPurchaseLinksVue />
     </main>
 </template>

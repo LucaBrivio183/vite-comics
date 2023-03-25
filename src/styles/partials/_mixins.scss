@@ -14,6 +14,7 @@ Container
 **********/
 
 @mixin container($maxsize) {
+    width: 90%;
     max-width: $maxsize;
     margin: 0 auto;
 }

@@ -38,10 +38,13 @@ a {
     }
 
     div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         img {
-            object-fit: center;
-            height: 3.75rem;
-            width: auto;
+            width: 3.125rem;
+            height: 4.375rem;
         }
     }
 }
